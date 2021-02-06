@@ -57,7 +57,7 @@ receiveLoop:
 		default:
 			req, suberr := stream.Recv()
 
-			if suberr != nil {
+			if suberr != nil || req == nil {
 				err = suberr
 				log.WithFields(log.Fields{
 					"action":             "recv_audio",
@@ -66,8 +66,6 @@ receiveLoop:
 					"error":              err,
 					"frames_received":    frames,
 					"frames_per_request": framesPerRequest,
-					"device":             req.DeviceId,
-					"session":            req.Session,
 				}).Warn(err)
 
 				toSend.Status = "Error"
