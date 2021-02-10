@@ -90,6 +90,8 @@ github.com/digital-dream-labs/api v0.0.0-20201230194801-ee4f8f160098 h1:NB/DdQjZ
 github.com/digital-dream-labs/api v0.0.0-20201230194801-ee4f8f160098/go.mod h1:fGK7rp4z1O17KBat0mPZxZpoN8sq9baSZk46dfKCKR0=
 github.com/digital-dream-labs/hugh v0.0.0-20210210151642-a5ef5d78a96e h1:o8fjBhgGCVB+dU3inWHUOTxUhfWq7mApHGzwSAUyAaU=
 github.com/digital-dream-labs/hugh v0.0.0-20210210151642-a5ef5d78a96e/go.mod h1:ZkWUHEPG5kdhpxM9vL+5b0p207jqH2WXNWQwFraQt2A=
+github.com/digital-dream-labs/hugh v0.0.0-20210210154115-9fe033db15ab h1:nEYS3OOClF8temrzOlnsDm128bOws7vQYYKUfhCCHhg=
+github.com/digital-dream-labs/hugh v0.0.0-20210210154115-9fe033db15ab/go.mod h1:ZkWUHEPG5kdhpxM9vL+5b0p207jqH2WXNWQwFraQt2A=
 github.com/docker/distribution v2.7.1+incompatible/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
 github.com/docker/docker v17.12.0-ce-rc1.0.20200505174321-1655290016ac+incompatible/go.mod h1:eEKB0N0r5NX/I1kEveEz05bcu8tLC/8azJZsviup8Sk=
 github.com/docker/go-connections v0.4.0/go.mod h1:Gbd7IOopHjR8Iph03tsViu4nIes5XhDvyHbTtUxmeec=
